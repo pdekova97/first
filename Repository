@@ -1,0 +1,20 @@
+Задачи
+Да се създаде проект с GIT *
+Да се направят промени и да се commit-нат *
+Да се създаде нов branch. Да се направят промени в него и след това branch-a да се слее (merge) с master'a *
+Да се направи rebase и merge с конфликти, които да се ресолвнат и да се определят разликите между 2'та подхода *
+Да се направи squash на няколко commit-a *
+Да се създаде tag *
+Да се изследва и установи каква е разликата между rebase и merge *
+Да се check out-не проекта на друго място *
+Да се определят разликите между централизирана и дистрибутирана система за управление на кода
+Централизирана:
+Centralized Version Control Systems (CVCSs) have one server that contains all the revision control functions.
+Centralized VCSs keep the history of changes on a central server from which everyone requests the latest version 
+of the work and pushes the latest changes to.
+This means that everyone sharing the server also shares everyone’s work.
+
+Дитрибутирана:
+Еveryone has a local copy of the entire work’s history.It is not necessary to be online to change revisions or add changes to the work. 
+
+Да се разгледат инструментите на GitHub за комуникация между разработчици (pull requests,issues, branches,tags, merging).
