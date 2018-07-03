@@ -1,0 +1,27 @@
+Задачи
+Да се направи HTML страница съдържаща линкове към:
+Директория от локалния компютър
+Текстов документ
+HTML страница на локалния компютър
+Website
+
+<! DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p> Линк към директория от локалния компютър </p>
+<a href="C:/Users/polly" target="_blank">Visit it!</a> 
+
+<p> Линк към текстов документ </p>
+<a href="C:/Users/polly/Desktop/Информатика/II курс/III-ти семестър/конспект DHTML 1" target="_blank">Visit it!</a>
+
+<p> Линк към HTML страница на локалния компютър </p>
+<a href="file:///C:/Users/polly/Desktop/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/II%20%D0%BA%D1%83%D1%80%D1%81/III-%D1%82%D0%B8%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%8A%D1%80/DHTML/Personal%20Website/contacts.html" target="_blank"> Vistit it</a>
+
+<p> Линк към Website </p>
+<a href="https://www.facebook.com" target="_blank">Visit Facebook! </a>
+
+</body>
+</html>
+
