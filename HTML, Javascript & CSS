@@ -31,6 +31,35 @@ Website
 2.Да се направи HTML страница в която да има бутон, който след като се натисне да се показва съдържание от външен
 ресурс (JSON, XML) в панел, който да се намира под него. За зареждането на външния ресурс трябва да се използва AJAX.
 
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-panel w3-red">
+<button type="button" onclick="loadDoc()">Change Content</button>
+<p id="demo">Let AJAX change this text.</p>
+</div>
+
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "ajax_info.txt", true);
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>
+
+
 3.Да се направи HTML страница съдържаща форма за въвеждане на данни за потребител 
 (first name, last name, EGN , age, address, password, confirm password) и да се извършат следните 
 JavaScript (client side) валидации:
